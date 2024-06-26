@@ -14,7 +14,11 @@ Contributions: Contributions are welcome to enhance the efficiency and versatili
 
 ## Pre-trained Models:
 
-You can download a pre-trained model from [here](https://drive.google.com/file/d/1--JQXFLKpjepVSc5hTFvlfGhqozkduLl/view). Put the model into the models/ directory.
+You can download a pre-trained model from [here](https://drive.google.com/file/d/1--JQXFLKpjepVSc5hTFvlfGhqozkduLl/view). Place the model into the models/ directory.
+
+## Inference On Google Colab:
+
+For convenience, you can run the inference on Google Colab using our pre-trained models. Access the Colab notebook [here](https://colab.research.google.com/drive/1u_lYgVbUwJPmJK6ds2oMLnGOx2tA1W5n?usp=sharing).
 
 ## Note: 
 
