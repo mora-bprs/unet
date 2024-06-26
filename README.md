@@ -19,6 +19,7 @@ You can download a pre-trained model from [here](https://drive.google.com/file/d
 ## Inference On Google Colab:
 
 For convenience, you can run the inference on Google Colab using our pre-trained models. Access the Colab notebook [here](https://colab.research.google.com/drive/1u_lYgVbUwJPmJK6ds2oMLnGOx2tA1W5n?usp=sharing).
+You can see some example inference images from [here](https://github.com/KavinduJ2001/UNet-Implementation/tree/main/Inference%20Images).
 
 ## Note: 
 
