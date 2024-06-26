@@ -3,13 +3,13 @@ import matplotlib.pyplot as plt
 from torchvision import transforms
 from PIL import Image
 
-from carvana_dataset import CarvanaDataset
+from dataset import Dataset
 from unet import UNet
 
 def pred_show_image_grid(data_path, model_pth, device):
     model = UNet(in_channels=3, num_classes=1).to(device)
     model.load_state_dict(torch.load(model_pth, map_location=torch.device(device)))
-    image_dataset = CarvanaDataset(data_path, test=True)
+    image_dataset = Dataset(data_path, test=True)
     images = []
     orig_masks = []
     pred_masks = []
