@@ -3,7 +3,7 @@ from PIL import Image
 from torch.utils.data.dataset import Dataset
 from torchvision import transforms
 
-class CarvanaDataset(Dataset):
+class Dataset(Dataset):
     def __init__(self, root_path, test=False):
         self.root_path = root_path
         if test:
