@@ -12,7 +12,7 @@ Ideal for developers and engineers working on robotic systems. Provides a founda
 
 Contributions: Contributions are welcome to enhance the efficiency and versatility of box detection algorithms, enabling broader applications in industrial automation.
 
-## Pre-trained Models
+## Pre-trained Models:
 
 You can download a pre-trained model from [here](https://drive.google.com/file/d/1--JQXFLKpjepVSc5hTFvlfGhqozkduLl/view). Put the model into the models/ directory.
 
