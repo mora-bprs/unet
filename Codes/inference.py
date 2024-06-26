@@ -2,6 +2,7 @@ import torch
 import matplotlib.pyplot as plt
 from torchvision import transforms
 from PIL import Image
+from random import randint
 
 from dataset import Dataset
 from unet import UNet
@@ -76,7 +77,9 @@ def single_image_inference(image_pth, model_pth, device):
 
 
 if __name__ == "__main__":
-    SINGLE_IMG_PATH = "./data/manual_test/03a857ce842d_15.jpg"
+    ROOT = os.getcwd()
+    IMG_NUMBER = randint(0, 100)
+    SINGLE_IMG_PATH = f"{ROOT}/data/test/{IMG_NUMBER}.jpg"
     DATA_PATH = "./data"
     MODEL_PATH = "./models/unet.pth"
 
