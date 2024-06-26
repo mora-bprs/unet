@@ -12,6 +12,10 @@ Ideal for developers and engineers working on robotic systems. Provides a founda
 
 Contributions: Contributions are welcome to enhance the efficiency and versatility of box detection algorithms, enabling broader applications in industrial automation.
 
+##Pre-trained Models
+
+You can download a pre-trained model from [here](https://drive.google.com/drive/folders/1IqzhYTVRCKMf9H5HM1tTR5l0xi1sbiqP?usp=sharing). Put the model into the models/ directory.
+
 ## Note: 
 
 On macOS, .DS_Store files are automatically created by Finder to store folder view settings. In this project, it’s important to handle these files properly.
