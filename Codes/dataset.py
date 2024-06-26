@@ -7,10 +7,10 @@ class Dataset(Dataset):
     def __init__(self, root_path, test=False):
         self.root_path = root_path
         if test:
-            self.images = sorted([root_path+"/manual_test/"+i for i in os.listdir(root_path+"/manual_test/")])
-            self.masks = sorted([root_path+"/manual_test_masks/"+i for i in os.listdir(root_path+"/manual_test_masks/")])
+            self.images = sorted([root_path+"/val_images/"+i for i in os.listdir(root_path+"/val_images/")])
+            self.masks = sorted([root_path+"/val_masks/"+i for i in os.listdir(root_path+"/val_masks/")])
         else:
-            self.images = sorted([root_path+"/train/"+i for i in os.listdir(root_path+"/train/")])
+            self.images = sorted([root_path+"/train_images/"+i for i in os.listdir(root_path+"/train_images/")])
             self.masks = sorted([root_path+"/train_masks/"+i for i in os.listdir(root_path+"/train_masks/")])
         
         self.transform = transforms.Compose([
