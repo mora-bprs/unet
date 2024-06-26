@@ -12,6 +12,6 @@ Ideal for developers and engineers working on robotic systems. Provides a founda
 
 Contributions: Contributions are welcome to enhance the efficiency and versatility of box detection algorithms, enabling broader applications in industrial automation.
 
-##Note: 
+## Note: 
 
 On macOS, .DS_Store files are automatically created by Finder to store folder view settings. In this project, it’s important to handle these files properly.
