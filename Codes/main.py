@@ -11,6 +11,8 @@ if __name__ == "__main__":
     BATCH_SIZE = 32
     EPOCHS = 2
     DATA_PATH = "/content/drive/MyDrive/uygar/unet-segmentation/data"
+
+    # Used for saving the model in Google Drive when running in a colab environment. 
     MODEL_SAVE_PATH = "/content/drive/MyDrive/uygar/unet-segmentation/models/unet.pth"
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
