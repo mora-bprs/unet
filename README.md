@@ -11,3 +11,7 @@ Utilizes uNET architecture for accurate box detection. Specifically tailored for
 Ideal for developers and engineers working on robotic systems. Provides a foundation for implementing box detection in industrial environments.
 
 Contributions: Contributions are welcome to enhance the efficiency and versatility of box detection algorithms, enabling broader applications in industrial automation.
+
+##Note: 
+
+On macOS, .DS_Store files are automatically created by Finder to store folder view settings. In this project, it’s important to handle these files properly.
