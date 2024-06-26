@@ -10,10 +10,11 @@ if __name__ == "__main__":
     LEARNING_RATE = 3e-4
     BATCH_SIZE = 32
     EPOCHS = 2
-    DATA_PATH = "/content/drive/MyDrive/uygar/unet-segmentation/data"
+    DATA_PATH = "/content/drive/MyDrive/UNet-Implementation-main/UNet-Implementation-main/data"
 
     # Used for saving the model in Google Drive when running in a colab environment. 
-    MODEL_SAVE_PATH = "/content/drive/MyDrive/uygar/unet-segmentation/models/unet.pth"
+    MODEL_SAVE_PATH = "/content/drive/MyDrive/UNet-Implementation-main/UNet-Implementation-main/models/unet20.pth"
+
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
     train_dataset = Dataset(DATA_PATH)
