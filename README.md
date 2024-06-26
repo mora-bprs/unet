@@ -14,7 +14,7 @@ Contributions: Contributions are welcome to enhance the efficiency and versatili
 
 ## Pre-trained Models
 
-You can download a pre-trained model from [here](https://drive.google.com/drive/folders/1IqzhYTVRCKMf9H5HM1tTR5l0xi1sbiqP?usp=sharing). Put the model into the models/ directory.
+You can download pre-trained models from [here](https://drive.google.com/drive/folders/1IqzhYTVRCKMf9H5HM1tTR5l0xi1sbiqP?usp=sharing). Put the model into the models/ directory.
 
 ## Note: 
 
