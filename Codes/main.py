@@ -14,7 +14,7 @@ if __name__ == "__main__":
     MODEL_SAVE_PATH = "/content/drive/MyDrive/uygar/unet-segmentation/models/unet.pth"
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
-    train_dataset = CarvanaDataset(DATA_PATH)
+    train_dataset = Dataset(DATA_PATH)
 
     generator = torch.Generator().manual_seed(42)
     train_dataset, val_dataset = random_split(train_dataset, [0.8, 0.2], generator=generator)
