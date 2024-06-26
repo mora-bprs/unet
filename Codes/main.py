@@ -4,7 +4,7 @@ from torch.utils.data import DataLoader, random_split
 from tqdm import tqdm
 
 from unet import UNet
-from carvana_dataset import CarvanaDataset
+from dataset import Dataset
 
 if __name__ == "__main__":
     LEARNING_RATE = 3e-4
