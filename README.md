@@ -15,7 +15,7 @@ Contributions: Contributions are welcome to enhance the efficiency and versatili
 # Pre-trained Models:
 
 ## Semantic Segmentation:
-You can download a pre-trained model for semantic segmentation from [here](https://drive.google.com/file/d/1--JQXFLKpjepVSc5hTFvlfGhqozkduLl/view). Place the model into the models/ directory.
+You can download a pre-trained model for semantic segmentation from [here](https://drive.google.com/file/d/1-DNHdGjgW8qMOXO-Pz2EYIh2M0IvyY4C/view?usp=share_link). Place the model into the models/ directory.
 
 ## Inference On Google Colab:
 
