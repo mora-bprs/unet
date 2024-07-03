@@ -14,12 +14,16 @@ Contributions: Contributions are welcome to enhance the efficiency and versatili
 
 ## Pre-trained Models:
 
-You can download a pre-trained model from [here](https://drive.google.com/file/d/1--JQXFLKpjepVSc5hTFvlfGhqozkduLl/view). Place the model into the models/ directory.
+# Semantic Segmentation:
+You can download a pre-trained model for semantic segmentation from [here](https://drive.google.com/file/d/1--JQXFLKpjepVSc5hTFvlfGhqozkduLl/view). Place the model into the models/ directory.
 
 ## Inference On Google Colab:
 
 For convenience, you can run the inference on Google Colab using our pre-trained models. Access the Colab notebook [here](https://colab.research.google.com/drive/1u_lYgVbUwJPmJK6ds2oMLnGOx2tA1W5n?usp=sharing).
 You can see some example inference images from [here](https://github.com/KavinduJ2001/UNet-Implementation/tree/main/Inference%20Images).
+
+# Instant Segmentation:
+We also trained the model using instant segmentation, but we couldn't get satisfactory outputs from that. You can access the pre-trained model [here](https://drive.google.com/file/d/1-0aUVPD53Hw8CtVmLkNkqKZBWkLTfdwk/view?usp=share_link). The new dataset used for instant segmentation is available [here](). 
 
 ## Note: 
 
