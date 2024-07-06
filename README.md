@@ -23,7 +23,7 @@ For convenience, you can run the inference on Google Colab using our pre-trained
 You can see some example inference images from [here](https://github.com/KavinduJ2001/UNet-Implementation/tree/main/Inference%20Images).
 
 ## Instant Segmentation:
-We also trained the model using instant segmentation, but we couldn't get satisfactory outputs from that. You can access the pre-trained model [here](https://drive.google.com/file/d/1-0aUVPD53Hw8CtVmLkNkqKZBWkLTfdwk/view?usp=share_link). The new dataset used for instant segmentation is available [here](https://drive.google.com/drive/folders/1ItmBBcbb6R8yUvjCA2hfQ_idNMV5Tdq8?usp=share_link). 
+We also trained the model using instant segmentation, but we couldn't get satisfactory outputs from that. You can access the pre-trained model [here](https://drive.google.com/file/d/1-0aUVPD53Hw8CtVmLkNkqKZBWkLTfdwk/view?usp=share_link). The new dataset used for instant segmentation is available [here](https://drive.google.com/drive/folders/1vmpItJnhr_PC_yRk7QwTX2AdXQQKAp3J?usp=share_link). 
 
 ## Note: 
 
