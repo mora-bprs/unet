@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 from torchvision import transforms
 from PIL import Image
 from random import randint
+import time
 
 from dataset import Dataset
 from unet import UNet
@@ -56,7 +57,9 @@ def single_image_inference(image_pth, model_pth, device):
     img = transform(Image.open(image_pth)).float().to(device)
     img = img.unsqueeze(0)
    
+    start_time = time.time()
     pred_mask = model(img)
+    print(f"Inference Time: {time.time() - start_time:.4f} seconds")
 
     img = img.squeeze(0).cpu().detach()
     img = img.permute(1, 2, 0)
